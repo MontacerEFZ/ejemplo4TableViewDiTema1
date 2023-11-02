@@ -15,6 +15,10 @@
 		1B8C74002AF3A519000023F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8C73FE2AF3A519000023F0 /* LaunchScreen.storyboard */; };
 		1B8C740B2AF3A519000023F0 /* ejemplo4TableViewDiTema1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C740A2AF3A519000023F0 /* ejemplo4TableViewDiTema1Tests.swift */; };
 		1B8C74162AF3A519000023F0 /* ejemplo4TableViewDiTema1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C74152AF3A519000023F0 /* ejemplo4TableViewDiTema1UITests.swift */; };
+		1B8C74282AF3A570000023F0 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C74272AF3A570000023F0 /* Tarea.swift */; };
+		1B8C74352AF3A8B4000023F0 /* CrearTareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C74342AF3A8B4000023F0 /* CrearTareaViewController.swift */; };
+		1B8C743A2AF3A94D000023F0 /* CeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C74392AF3A94D000023F0 /* CeldaTableViewCell.swift */; };
+		1B8C743F2AF3AD13000023F0 /* ObtenerTareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C743E2AF3AD13000023F0 /* ObtenerTareas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1B8C74112AF3A519000023F0 /* ejemplo4TableViewDiTema1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejemplo4TableViewDiTema1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8C74152AF3A519000023F0 /* ejemplo4TableViewDiTema1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejemplo4TableViewDiTema1UITests.swift; sourceTree = "<group>"; };
 		1B8C74172AF3A519000023F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8C74272AF3A570000023F0 /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
+		1B8C74342AF3A8B4000023F0 /* CrearTareaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearTareaViewController.swift; sourceTree = "<group>"; };
+		1B8C74392AF3A94D000023F0 /* CeldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTableViewCell.swift; sourceTree = "<group>"; };
+		1B8C743E2AF3AD13000023F0 /* ObtenerTareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtenerTareas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		1B8C73F22AF3A518000023F0 /* ejemplo4TableViewDiTema1 */ = {
 			isa = PBXGroup;
 			children = (
+				1B8C74262AF3A55F000023F0 /* modelos */,
 				1B8C73F32AF3A518000023F0 /* AppDelegate.swift */,
 				1B8C73F52AF3A518000023F0 /* SceneDelegate.swift */,
 				1B8C73F72AF3A518000023F0 /* ViewController.swift */,
@@ -106,6 +115,9 @@
 				1B8C73FC2AF3A519000023F0 /* Assets.xcassets */,
 				1B8C73FE2AF3A519000023F0 /* LaunchScreen.storyboard */,
 				1B8C74012AF3A519000023F0 /* Info.plist */,
+				1B8C74342AF3A8B4000023F0 /* CrearTareaViewController.swift */,
+				1B8C74392AF3A94D000023F0 /* CeldaTableViewCell.swift */,
+				1B8C743E2AF3AD13000023F0 /* ObtenerTareas.swift */,
 			);
 			path = ejemplo4TableViewDiTema1;
 			sourceTree = "<group>";
@@ -126,6 +138,14 @@
 				1B8C74172AF3A519000023F0 /* Info.plist */,
 			);
 			path = ejemplo4TableViewDiTema1UITests;
+			sourceTree = "<group>";
+		};
+		1B8C74262AF3A55F000023F0 /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				1B8C74272AF3A570000023F0 /* Tarea.swift */,
+			);
+			path = modelos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8C74352AF3A8B4000023F0 /* CrearTareaViewController.swift in Sources */,
+				1B8C743A2AF3A94D000023F0 /* CeldaTableViewCell.swift in Sources */,
 				1B8C73F82AF3A518000023F0 /* ViewController.swift in Sources */,
 				1B8C73F42AF3A518000023F0 /* AppDelegate.swift in Sources */,
 				1B8C73F62AF3A518000023F0 /* SceneDelegate.swift in Sources */,
+				1B8C74282AF3A570000023F0 /* Tarea.swift in Sources */,
+				1B8C743F2AF3AD13000023F0 /* ObtenerTareas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
