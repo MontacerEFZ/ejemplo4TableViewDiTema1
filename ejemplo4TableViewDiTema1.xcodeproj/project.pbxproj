@@ -19,6 +19,7 @@
 		1B8C74352AF3A8B4000023F0 /* CrearTareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C74342AF3A8B4000023F0 /* CrearTareaViewController.swift */; };
 		1B8C743A2AF3A94D000023F0 /* CeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C74392AF3A94D000023F0 /* CeldaTableViewCell.swift */; };
 		1B8C743F2AF3AD13000023F0 /* ObtenerTareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C743E2AF3AD13000023F0 /* ObtenerTareas.swift */; };
+		1BF32EC32AFCCC7000B4B132 /* EditarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF32EC22AFCCC7000B4B132 /* EditarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		1B8C74342AF3A8B4000023F0 /* CrearTareaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearTareaViewController.swift; sourceTree = "<group>"; };
 		1B8C74392AF3A94D000023F0 /* CeldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTableViewCell.swift; sourceTree = "<group>"; };
 		1B8C743E2AF3AD13000023F0 /* ObtenerTareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtenerTareas.swift; sourceTree = "<group>"; };
+		1BF32EC22AFCCC7000B4B132 /* EditarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				1B8C74342AF3A8B4000023F0 /* CrearTareaViewController.swift */,
 				1B8C74392AF3A94D000023F0 /* CeldaTableViewCell.swift */,
 				1B8C743E2AF3AD13000023F0 /* ObtenerTareas.swift */,
+				1BF32EC22AFCCC7000B4B132 /* EditarViewController.swift */,
 			);
 			path = ejemplo4TableViewDiTema1;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				1B8C73F82AF3A518000023F0 /* ViewController.swift in Sources */,
 				1B8C73F42AF3A518000023F0 /* AppDelegate.swift in Sources */,
 				1B8C73F62AF3A518000023F0 /* SceneDelegate.swift in Sources */,
+				1BF32EC32AFCCC7000B4B132 /* EditarViewController.swift in Sources */,
 				1B8C74282AF3A570000023F0 /* Tarea.swift in Sources */,
 				1B8C743F2AF3AD13000023F0 /* ObtenerTareas.swift in Sources */,
 			);
